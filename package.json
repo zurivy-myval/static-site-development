@@ -1,0 +1,44 @@
+{
+  "name": "static-site-dev",
+  "version": "1.0.0",
+  "description": "A static website development environment using Gulp, Nunjucks templating, Sass, Autoprefixer, and BrowserSync for fast and efficient web development.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp",
+    "dev": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zurivy-myval/static-site-development.git"
+  },
+  "keywords": [
+    "gulp",
+    "static",
+    "dev",
+    "static",
+    "site",
+    "nunjucks",
+    "scss",
+    "sass",
+    "autoprefixer",
+    "browsersync"
+  ],
+  "author": "Marek Kastil",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zurivy-myval/static-site-development/issues"
+  },
+  "homepage": "https://github.com/zurivy-myval/static-site-development#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^3.0.3",
+    "gulp": "^5.0.0",
+    "gulp-autoprefixer": "^9.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-nunjucks-render": "^2.2.3",
+    "gulp-sass": "^6.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "sass": "^1.83.0"
+  }
+}
